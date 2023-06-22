@@ -56,10 +56,16 @@ class FoodResultView @JvmOverloads constructor(
     private fun renderResult(passioIDAttributes: PassioIDAttributes, confidence: Float) {
         currentResult = passioIDAttributes.passioID
         val name = passioIDAttributes.name
+        var nutrition = ""
+        if (passioIDAttributes.passioFoodItemData == null) {
+            nutrition = "No"
+        } else {
+            nutrition = "Yes"
+        }
 
         binding?.let {
             it.foodResultImage.loadPassioIcon(passioIDAttributes.passioID, passioIDAttributes.entityType)
-            it.foodResultName.text = name.capitalize(Locale.ROOT) + confidence
+            it.foodResultName.text = name.capitalize(Locale.ROOT) + "\nNutrition facts:" + nutrition + "\nConfidence:" + confidence
             it.foodResultProgress.alpha = 0f
             it.foodResultImage.alpha = 1f
         }
