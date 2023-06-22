@@ -1,0 +1,231 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ai.passio.passiosdksandbox"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\brian.cancholafenoc\Downloads\PassioSDKSandbox\PassioSDKSandbox\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\brian.cancholafenoc\Downloads\PassioSDKSandbox\PassioSDKSandbox\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature android:name="android.hardware.camera" />
+11-->[passiolib-release.aar] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\14dc165595ee085ac43f2add458c2e52\transformed\jetified-passiolib-release\AndroidManifest.xml:9:5-60
+11-->[passiolib-release.aar] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\14dc165595ee085ac43f2add458c2e52\transformed\jetified-passiolib-release\AndroidManifest.xml:9:19-57
+12    <uses-feature android:name="android.hardware.camera.autofocus" />
+12-->[passiolib-release.aar] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\14dc165595ee085ac43f2add458c2e52\transformed\jetified-passiolib-release\AndroidManifest.xml:10:5-70
+12-->[passiolib-release.aar] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\14dc165595ee085ac43f2add458c2e52\transformed\jetified-passiolib-release\AndroidManifest.xml:10:19-67
+13
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[passiolib-release.aar] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\14dc165595ee085ac43f2add458c2e52\transformed\jetified-passiolib-release\AndroidManifest.xml:12:5-79
+14-->[passiolib-release.aar] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\14dc165595ee085ac43f2add458c2e52\transformed\jetified-passiolib-release\AndroidManifest.xml:12:22-76
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->[passiolib-release.aar] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\14dc165595ee085ac43f2add458c2e52\transformed\jetified-passiolib-release\AndroidManifest.xml:13:5-65
+15-->[passiolib-release.aar] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\14dc165595ee085ac43f2add458c2e52\transformed\jetified-passiolib-release\AndroidManifest.xml:13:22-62
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[passiolib-release.aar] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\14dc165595ee085ac43f2add458c2e52\transformed\jetified-passiolib-release\AndroidManifest.xml:14:5-67
+16-->[passiolib-release.aar] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\14dc165595ee085ac43f2add458c2e52\transformed\jetified-passiolib-release\AndroidManifest.xml:14:22-64
+17
+18    <queries>
+18-->[androidx.camera:camera-extensions:1.0.0-alpha32] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\411fff84eb0494d1b27fb6c7bc22651d\transformed\jetified-camera-extensions-1.0.0-alpha32\AndroidManifest.xml:24:5-28:15
+19        <intent>
+19-->[androidx.camera:camera-extensions:1.0.0-alpha32] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\411fff84eb0494d1b27fb6c7bc22651d\transformed\jetified-camera-extensions-1.0.0-alpha32\AndroidManifest.xml:25:9-27:18
+20            <action android:name="androidx.camera.extensions.action.VENDOR_ACTION" />
+20-->[androidx.camera:camera-extensions:1.0.0-alpha32] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\411fff84eb0494d1b27fb6c7bc22651d\transformed\jetified-camera-extensions-1.0.0-alpha32\AndroidManifest.xml:26:13-86
+20-->[androidx.camera:camera-extensions:1.0.0-alpha32] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\411fff84eb0494d1b27fb6c7bc22651d\transformed\jetified-camera-extensions-1.0.0-alpha32\AndroidManifest.xml:26:21-83
+21        </intent>
+22    </queries>
+23
+24    <permission
+24-->[androidx.core:core:1.9.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\01ff7b727cf930e5a25944ebe3842041\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+25        android:name="ai.passio.passiosdksandbox.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+25-->[androidx.core:core:1.9.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\01ff7b727cf930e5a25944ebe3842041\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+26        android:protectionLevel="signature" />
+26-->[androidx.core:core:1.9.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\01ff7b727cf930e5a25944ebe3842041\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+27
+28    <uses-permission android:name="ai.passio.passiosdksandbox.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+28-->[androidx.core:core:1.9.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\01ff7b727cf930e5a25944ebe3842041\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+28-->[androidx.core:core:1.9.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\01ff7b727cf930e5a25944ebe3842041\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+29
+30    <application
+30-->C:\Users\brian.cancholafenoc\Downloads\PassioSDKSandbox\PassioSDKSandbox\app\src\main\AndroidManifest.xml:5:5-22:19
+31        android:allowBackup="true"
+31-->C:\Users\brian.cancholafenoc\Downloads\PassioSDKSandbox\PassioSDKSandbox\app\src\main\AndroidManifest.xml:6:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.9.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\01ff7b727cf930e5a25944ebe3842041\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+33        android:extractNativeLibs="false"
+34        android:icon="@mipmap/ic_launcher"
+34-->C:\Users\brian.cancholafenoc\Downloads\PassioSDKSandbox\PassioSDKSandbox\app\src\main\AndroidManifest.xml:7:9-43
+35        android:label="@string/app_name"
+35-->C:\Users\brian.cancholafenoc\Downloads\PassioSDKSandbox\PassioSDKSandbox\app\src\main\AndroidManifest.xml:8:9-41
+36        android:largeHeap="true"
+36-->C:\Users\brian.cancholafenoc\Downloads\PassioSDKSandbox\PassioSDKSandbox\app\src\main\AndroidManifest.xml:9:9-33
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->C:\Users\brian.cancholafenoc\Downloads\PassioSDKSandbox\PassioSDKSandbox\app\src\main\AndroidManifest.xml:10:9-54
+38        android:supportsRtl="true"
+38-->C:\Users\brian.cancholafenoc\Downloads\PassioSDKSandbox\PassioSDKSandbox\app\src\main\AndroidManifest.xml:11:9-35
+39        android:theme="@style/AppTheme" >
+39-->C:\Users\brian.cancholafenoc\Downloads\PassioSDKSandbox\PassioSDKSandbox\app\src\main\AndroidManifest.xml:12:9-40
+40        <activity
+40-->C:\Users\brian.cancholafenoc\Downloads\PassioSDKSandbox\PassioSDKSandbox\app\src\main\AndroidManifest.xml:13:9-21:20
+41            android:name="ai.passio.passiosdksandbox.MainActivity"
+41-->C:\Users\brian.cancholafenoc\Downloads\PassioSDKSandbox\PassioSDKSandbox\app\src\main\AndroidManifest.xml:14:13-41
+42            android:exported="true" >
+42-->C:\Users\brian.cancholafenoc\Downloads\PassioSDKSandbox\PassioSDKSandbox\app\src\main\AndroidManifest.xml:15:13-36
+43            <intent-filter>
+43-->C:\Users\brian.cancholafenoc\Downloads\PassioSDKSandbox\PassioSDKSandbox\app\src\main\AndroidManifest.xml:16:13-20:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\brian.cancholafenoc\Downloads\PassioSDKSandbox\PassioSDKSandbox\app\src\main\AndroidManifest.xml:17:17-69
+44-->C:\Users\brian.cancholafenoc\Downloads\PassioSDKSandbox\PassioSDKSandbox\app\src\main\AndroidManifest.xml:17:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\brian.cancholafenoc\Downloads\PassioSDKSandbox\PassioSDKSandbox\app\src\main\AndroidManifest.xml:19:17-77
+46-->C:\Users\brian.cancholafenoc\Downloads\PassioSDKSandbox\PassioSDKSandbox\app\src\main\AndroidManifest.xml:19:27-74
+47            </intent-filter>
+48        </activity>
+49
+50        <service
+50-->[passiolib-release.aar] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\14dc165595ee085ac43f2add458c2e52\transformed\jetified-passiolib-release\AndroidManifest.xml:17:9-19:72
+51            android:name="ai.passio.passiosdk.core.download.PassioDownloadService"
+51-->[passiolib-release.aar] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\14dc165595ee085ac43f2add458c2e52\transformed\jetified-passiolib-release\AndroidManifest.xml:18:13-83
+52            android:permission="android.permission.BIND_JOB_SERVICE" />
+52-->[passiolib-release.aar] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\14dc165595ee085ac43f2add458c2e52\transformed\jetified-passiolib-release\AndroidManifest.xml:19:13-69
+53        <service
+53-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\1bd6083acd766df24ace8475b41ef30e\transformed\jetified-play-services-mlkit-barcode-scanning-18.0.0\AndroidManifest.xml:9:9-15:19
+54            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+54-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\1bd6083acd766df24ace8475b41ef30e\transformed\jetified-play-services-mlkit-barcode-scanning-18.0.0\AndroidManifest.xml:10:13-91
+55            android:directBootAware="true"
+55-->[com.google.mlkit:common:18.0.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\e393532aa0ed1394339bdb01c194bac0\transformed\jetified-common-18.0.0\AndroidManifest.xml:17:13-43
+56            android:exported="false" >
+56-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\1bd6083acd766df24ace8475b41ef30e\transformed\jetified-play-services-mlkit-barcode-scanning-18.0.0\AndroidManifest.xml:11:13-37
+57            <meta-data
+57-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\1bd6083acd766df24ace8475b41ef30e\transformed\jetified-play-services-mlkit-barcode-scanning-18.0.0\AndroidManifest.xml:12:13-14:85
+58                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+58-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\1bd6083acd766df24ace8475b41ef30e\transformed\jetified-play-services-mlkit-barcode-scanning-18.0.0\AndroidManifest.xml:13:17-120
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\1bd6083acd766df24ace8475b41ef30e\transformed\jetified-play-services-mlkit-barcode-scanning-18.0.0\AndroidManifest.xml:14:17-82
+60            <meta-data
+60-->[com.google.android.gms:play-services-mlkit-text-recognition-common:17.0.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\f936431d5e460b038f672f3b38033d48\transformed\jetified-play-services-mlkit-text-recognition-common-17.0.0\AndroidManifest.xml:12:13-14:85
+61                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+61-->[com.google.android.gms:play-services-mlkit-text-recognition-common:17.0.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\f936431d5e460b038f672f3b38033d48\transformed\jetified-play-services-mlkit-text-recognition-common-17.0.0\AndroidManifest.xml:13:17-114
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[com.google.android.gms:play-services-mlkit-text-recognition-common:17.0.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\f936431d5e460b038f672f3b38033d48\transformed\jetified-play-services-mlkit-text-recognition-common-17.0.0\AndroidManifest.xml:14:17-82
+63            <meta-data
+63-->[com.google.mlkit:vision-common:17.0.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\84a4181911cd1440fda24d7cd90af22b\transformed\jetified-vision-common-17.0.0\AndroidManifest.xml:12:13-14:85
+64                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+64-->[com.google.mlkit:vision-common:17.0.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\84a4181911cd1440fda24d7cd90af22b\transformed\jetified-vision-common-17.0.0\AndroidManifest.xml:13:17-124
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.mlkit:vision-common:17.0.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\84a4181911cd1440fda24d7cd90af22b\transformed\jetified-vision-common-17.0.0\AndroidManifest.xml:14:17-82
+66            <meta-data
+66-->[com.google.mlkit:common:18.0.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\e393532aa0ed1394339bdb01c194bac0\transformed\jetified-common-18.0.0\AndroidManifest.xml:20:13-22:85
+67                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+67-->[com.google.mlkit:common:18.0.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\e393532aa0ed1394339bdb01c194bac0\transformed\jetified-common-18.0.0\AndroidManifest.xml:21:17-120
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[com.google.mlkit:common:18.0.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\e393532aa0ed1394339bdb01c194bac0\transformed\jetified-common-18.0.0\AndroidManifest.xml:22:17-82
+69        </service>
+70
+71        <provider
+71-->[com.google.mlkit:common:18.0.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\e393532aa0ed1394339bdb01c194bac0\transformed\jetified-common-18.0.0\AndroidManifest.xml:9:9-13:38
+72            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+72-->[com.google.mlkit:common:18.0.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\e393532aa0ed1394339bdb01c194bac0\transformed\jetified-common-18.0.0\AndroidManifest.xml:10:13-78
+73            android:authorities="ai.passio.passiosdksandbox.mlkitinitprovider"
+73-->[com.google.mlkit:common:18.0.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\e393532aa0ed1394339bdb01c194bac0\transformed\jetified-common-18.0.0\AndroidManifest.xml:11:13-69
+74            android:exported="false"
+74-->[com.google.mlkit:common:18.0.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\e393532aa0ed1394339bdb01c194bac0\transformed\jetified-common-18.0.0\AndroidManifest.xml:12:13-37
+75            android:initOrder="99" />
+75-->[com.google.mlkit:common:18.0.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\e393532aa0ed1394339bdb01c194bac0\transformed\jetified-common-18.0.0\AndroidManifest.xml:13:13-35
+76
+77        <activity
+77-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\62a490099bb6d0e243eba2e839e1c00f\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+78            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+78-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\62a490099bb6d0e243eba2e839e1c00f\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+79            android:exported="false"
+79-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\62a490099bb6d0e243eba2e839e1c00f\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+80            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+80-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\62a490099bb6d0e243eba2e839e1c00f\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+81
+82        <meta-data
+82-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\906914b6e96d116e0374f154b24e0e03\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+83            android:name="com.google.android.gms.version"
+83-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\906914b6e96d116e0374f154b24e0e03\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+84            android:value="@integer/google_play_services_version" />
+84-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\906914b6e96d116e0374f154b24e0e03\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+85
+86        <uses-library
+86-->[androidx.camera:camera-extensions:1.0.0-alpha32] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\411fff84eb0494d1b27fb6c7bc22651d\transformed\jetified-camera-extensions-1.0.0-alpha32\AndroidManifest.xml:31:9-33:40
+87            android:name="androidx.camera.extensions.impl"
+87-->[androidx.camera:camera-extensions:1.0.0-alpha32] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\411fff84eb0494d1b27fb6c7bc22651d\transformed\jetified-camera-extensions-1.0.0-alpha32\AndroidManifest.xml:32:13-59
+88            android:required="false" />
+88-->[androidx.camera:camera-extensions:1.0.0-alpha32] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\411fff84eb0494d1b27fb6c7bc22651d\transformed\jetified-camera-extensions-1.0.0-alpha32\AndroidManifest.xml:33:13-37
+89
+90        <service
+90-->[androidx.camera:camera-camera2:1.1.0-alpha12] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\250a38b372f42609688e0c685c93ba35\transformed\jetified-camera-camera2-1.1.0-alpha12\AndroidManifest.xml:26:9-35:19
+91            android:name="androidx.camera.core.impl.MetadataHolderService"
+91-->[androidx.camera:camera-camera2:1.1.0-alpha12] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\250a38b372f42609688e0c685c93ba35\transformed\jetified-camera-camera2-1.1.0-alpha12\AndroidManifest.xml:27:13-75
+92            android:enabled="false"
+92-->[androidx.camera:camera-camera2:1.1.0-alpha12] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\250a38b372f42609688e0c685c93ba35\transformed\jetified-camera-camera2-1.1.0-alpha12\AndroidManifest.xml:28:13-36
+93            android:exported="false" >
+93-->[androidx.camera:camera-camera2:1.1.0-alpha12] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\250a38b372f42609688e0c685c93ba35\transformed\jetified-camera-camera2-1.1.0-alpha12\AndroidManifest.xml:29:13-37
+94            <meta-data
+94-->[androidx.camera:camera-camera2:1.1.0-alpha12] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\250a38b372f42609688e0c685c93ba35\transformed\jetified-camera-camera2-1.1.0-alpha12\AndroidManifest.xml:32:13-34:89
+95                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+95-->[androidx.camera:camera-camera2:1.1.0-alpha12] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\250a38b372f42609688e0c685c93ba35\transformed\jetified-camera-camera2-1.1.0-alpha12\AndroidManifest.xml:33:17-103
+96                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+96-->[androidx.camera:camera-camera2:1.1.0-alpha12] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\250a38b372f42609688e0c685c93ba35\transformed\jetified-camera-camera2-1.1.0-alpha12\AndroidManifest.xml:34:17-86
+97        </service>
+98
+99        <provider
+99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\ba33cc21600cea2979a8debb67628818\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+100            android:name="androidx.startup.InitializationProvider"
+100-->[androidx.emoji2:emoji2:1.2.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\ba33cc21600cea2979a8debb67628818\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+101            android:authorities="ai.passio.passiosdksandbox.androidx-startup"
+101-->[androidx.emoji2:emoji2:1.2.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\ba33cc21600cea2979a8debb67628818\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+102            android:exported="false" >
+102-->[androidx.emoji2:emoji2:1.2.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\ba33cc21600cea2979a8debb67628818\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+103            <meta-data
+103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\ba33cc21600cea2979a8debb67628818\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+104                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+104-->[androidx.emoji2:emoji2:1.2.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\ba33cc21600cea2979a8debb67628818\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+105                android:value="androidx.startup" />
+105-->[androidx.emoji2:emoji2:1.2.0] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\ba33cc21600cea2979a8debb67628818\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+106            <meta-data
+106-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\4c82b6cc42eda4ad575c4986b7e6c1d4\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+107                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+107-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\4c82b6cc42eda4ad575c4986b7e6c1d4\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+108                android:value="androidx.startup" />
+108-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\4c82b6cc42eda4ad575c4986b7e6c1d4\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+109        </provider>
+110
+111        <service
+111-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\bad9bca0e6d8c08ab9ed6feb9cd9fdae\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+112            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+112-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\bad9bca0e6d8c08ab9ed6feb9cd9fdae\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+113            android:exported="false" >
+113-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\bad9bca0e6d8c08ab9ed6feb9cd9fdae\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+114            <meta-data
+114-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\bad9bca0e6d8c08ab9ed6feb9cd9fdae\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+115                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+115-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\bad9bca0e6d8c08ab9ed6feb9cd9fdae\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+116                android:value="cct" />
+116-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\bad9bca0e6d8c08ab9ed6feb9cd9fdae\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+117        </service>
+118        <service
+118-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\a9ed5d07f0777053084c283ec0b1b250\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+119            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+119-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\a9ed5d07f0777053084c283ec0b1b250\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+120            android:exported="false"
+120-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\a9ed5d07f0777053084c283ec0b1b250\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+121            android:permission="android.permission.BIND_JOB_SERVICE" >
+121-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\a9ed5d07f0777053084c283ec0b1b250\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+122        </service>
+123
+124        <receiver
+124-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\a9ed5d07f0777053084c283ec0b1b250\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+125            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+125-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\a9ed5d07f0777053084c283ec0b1b250\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+126            android:exported="false" />
+126-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\brian.cancholafenoc\.gradle\caches\transforms-3\a9ed5d07f0777053084c283ec0b1b250\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+127    </application>
+128
+129</manifest>

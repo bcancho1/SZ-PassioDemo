@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "ai.passio.passiosdksandbox.app-mergeReleaseResources-37:/layout/fragment_recognizer.xml",
+        "source": "ai.passio.passiosdksandbox.app-main-39:/layout/fragment_recognizer.xml"
+    },
+    {
+        "merged": "ai.passio.passiosdksandbox.app-mergeReleaseResources-37:/layout/activity_main.xml",
+        "source": "ai.passio.passiosdksandbox.app-main-39:/layout/activity_main.xml"
+    },
+    {
+        "merged": "ai.passio.passiosdksandbox.app-mergeReleaseResources-37:/layout/food_result_layout.xml",
+        "source": "ai.passio.passiosdksandbox.app-main-39:/layout/food_result_layout.xml"
+    },
+    {
+        "merged": "ai.passio.passiosdksandbox.app-mergeReleaseResources-37:/layout/activity_test.xml",
+        "source": "ai.passio.passiosdksandbox.app-main-39:/layout/activity_test.xml"
+    },
+    {
+        "merged": "ai.passio.passiosdksandbox.app-mergeReleaseResources-37:/layout/fragment_permission.xml",
+        "source": "ai.passio.passiosdksandbox.app-main-39:/layout/fragment_permission.xml"
+    }
+]

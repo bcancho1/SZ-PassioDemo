@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "ai.passio.passiosdksandbox.app-merged_res-38:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "ai.passio.passiosdksandbox.app-main-39:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "ai.passio.passiosdksandbox.app-merged_res-38:/drawable_ic_launcher_background.xml.flat",
+        "source": "ai.passio.passiosdksandbox.app-main-39:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "ai.passio.passiosdksandbox.app-merged_res-38:/drawable_rounded_corners_16dp_black_50.xml.flat",
+        "source": "ai.passio.passiosdksandbox.app-main-39:/drawable/rounded_corners_16dp_black_50.xml"
+    },
+    {
+        "merged": "ai.passio.passiosdksandbox.app-merged_res-38:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "ai.passio.passiosdksandbox.app-main-39:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "ai.passio.passiosdksandbox.app-merged_res-38:/layout_food_result_layout.xml.flat",
+        "source": "ai.passio.passiosdksandbox.app-main-39:/layout/food_result_layout.xml"
+    },
+    {
+        "merged": "ai.passio.passiosdksandbox.app-merged_res-38:/layout_activity_main.xml.flat",
+        "source": "ai.passio.passiosdksandbox.app-main-39:/layout/activity_main.xml"
+    },
+    {
+        "merged": "ai.passio.passiosdksandbox.app-merged_res-38:/drawable_ic_spinner_rotate.xml.flat",
+        "source": "ai.passio.passiosdksandbox.app-main-39:/drawable/ic_spinner_rotate.xml"
+    },
+    {
+        "merged": "ai.passio.passiosdksandbox.app-merged_res-38:/layout_activity_test.xml.flat",
+        "source": "ai.passio.passiosdksandbox.app-main-39:/layout/activity_test.xml"
+    },
+    {
+        "merged": "ai.passio.passiosdksandbox.app-merged_res-38:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "ai.passio.passiosdksandbox.app-main-39:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "ai.passio.passiosdksandbox.app-merged_res-38:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "ai.passio.passiosdksandbox.app-main-39:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "ai.passio.passiosdksandbox.app-merged_res-38:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "ai.passio.passiosdksandbox.app-main-39:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "ai.passio.passiosdksandbox.app-merged_res-38:/layout_fragment_permission.xml.flat",
+        "source": "ai.passio.passiosdksandbox.app-main-39:/layout/fragment_permission.xml"
+    },
+    {
+        "merged": "ai.passio.passiosdksandbox.app-merged_res-38:/layout_fragment_recognizer.xml.flat",
+        "source": "ai.passio.passiosdksandbox.app-main-39:/layout/fragment_recognizer.xml"
+    },
+    {
+        "merged": "ai.passio.passiosdksandbox.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "ai.passio.passiosdksandbox.app-main-39:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "ai.passio.passiosdksandbox.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "ai.passio.passiosdksandbox.app-main-39:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "ai.passio.passiosdksandbox.app-merged_res-38:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "ai.passio.passiosdksandbox.app-main-39:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "ai.passio.passiosdksandbox.app-merged_res-38:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "ai.passio.passiosdksandbox.app-main-39:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "ai.passio.passiosdksandbox.app-merged_res-38:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "ai.passio.passiosdksandbox.app-main-39:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "ai.passio.passiosdksandbox.app-merged_res-38:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "ai.passio.passiosdksandbox.app-main-39:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "ai.passio.passiosdksandbox.app-merged_res-38:/drawable_ic_spinner.xml.flat",
+        "source": "ai.passio.passiosdksandbox.app-main-39:/drawable/ic_spinner.xml"
+    },
+    {
+        "merged": "ai.passio.passiosdksandbox.app-merged_res-38:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "ai.passio.passiosdksandbox.app-main-39:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "ai.passio.passiosdksandbox.app-merged_res-38:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "ai.passio.passiosdksandbox.app-main-39:/mipmap-mdpi/ic_launcher_round.png"
+    }
+]

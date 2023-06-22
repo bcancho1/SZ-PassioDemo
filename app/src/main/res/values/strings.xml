@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Passio Nutrition SDK</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="permission_denied">Passio Sandbox App cannot work without the camera. Please close the App and grant permission to the camera on the next launch.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="food_searching">Searching for food</string>
+</resources>
