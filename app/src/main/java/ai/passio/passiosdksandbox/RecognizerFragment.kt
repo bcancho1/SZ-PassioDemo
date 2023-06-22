@@ -69,7 +69,7 @@ class RecognizerFragment : PassioCameraFragment() {
                 binding?.recognizerFoodResultView?.setBarcodeResult(bestBarcodeResult.barcode)
             } else {
                 val bestVisualCandidate = visualCandidates.maxByOrNull { it.confidence } ?: return
-                binding?.recognizerFoodResultView?.setFoodResult(bestVisualCandidate.passioID, bestVisualCandidate.confidence)
+                binding?.recognizerFoodResultView?.setFoodResult(bestVisualCandidate.passioID, bestVisualCandidate)
             }
         }
     }

@@ -32,19 +32,21 @@
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/foodResultName"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="311dp"
+        android:layout_height="108dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:gravity="start"
-        android:maxLines="2"
+        android:maxLines="6"
+        android:text="@string/food_searching"
         android:textColor="@android:color/white"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@id/foodResultImage"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_goneMarginStart="88dp"
-        android:text="@string/food_searching" />
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_goneMarginStart="88dp" />
 
 </merge>

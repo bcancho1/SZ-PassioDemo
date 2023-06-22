@@ -1,22 +1,26 @@
 [
     {
-        "merged": "ai.passio.passiosdksandbox.app-mergeDebugResources-37:/layout/fragment_permission.xml",
-        "source": "ai.passio.passiosdksandbox.app-main-40:/layout/fragment_permission.xml"
+        "merged": "C:\\Users\\brian.cancholafenoc\\.gradle\\daemon\\7.3.3\\ai.passio.passiosdksandbox.app-mergeDebugResources-37:\\layout\\fragment_recognizer.xml",
+        "source": "C:\\Users\\brian.cancholafenoc\\.gradle\\daemon\\7.3.3\\ai.passio.passiosdksandbox.app-main-40:\\layout\\fragment_recognizer.xml"
     },
     {
-        "merged": "ai.passio.passiosdksandbox.app-mergeDebugResources-37:/layout/activity_main.xml",
-        "source": "ai.passio.passiosdksandbox.app-main-40:/layout/activity_main.xml"
+        "merged": "C:\\Users\\brian.cancholafenoc\\.gradle\\daemon\\7.3.3\\ai.passio.passiosdksandbox.app-mergeDebugResources-37:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\brian.cancholafenoc\\.gradle\\daemon\\7.3.3\\ai.passio.passiosdksandbox.app-main-40:\\layout\\activity_main.xml"
     },
     {
-        "merged": "ai.passio.passiosdksandbox.app-mergeDebugResources-37:/layout/fragment_recognizer.xml",
-        "source": "ai.passio.passiosdksandbox.app-main-40:/layout/fragment_recognizer.xml"
+        "merged": "C:\\Users\\brian.cancholafenoc\\.gradle\\daemon\\7.3.3\\ai.passio.passiosdksandbox.app-mergeDebugResources-37:\\layout\\food_result_layout.xml",
+        "source": "C:\\Users\\brian.cancholafenoc\\.gradle\\daemon\\7.3.3\\ai.passio.passiosdksandbox.app-main-40:\\layout\\food_result_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\brian.cancholafenoc\\.gradle\\daemon\\7.3.3\\ai.passio.passiosdksandbox.app-mergeDebugResources-37:\\layout\\fragment_permission.xml",
+        "source": "C:\\Users\\brian.cancholafenoc\\.gradle\\daemon\\7.3.3\\ai.passio.passiosdksandbox.app-main-40:\\layout\\fragment_permission.xml"
+    },
+    {
+        "merged": "C:\\Users\\brian.cancholafenoc\\.gradle\\daemon\\7.3.3\\ai.passio.passiosdksandbox.app-mergeDebugResources-37:\\layout\\activity_test.xml",
+        "source": "C:\\Users\\brian.cancholafenoc\\.gradle\\daemon\\7.3.3\\ai.passio.passiosdksandbox.app-main-40:\\layout\\activity_test.xml"
     },
     {
         "merged": "ai.passio.passiosdksandbox.app-mergeDebugResources-37:/layout/food_result_layout.xml",
         "source": "ai.passio.passiosdksandbox.app-main-40:/layout/food_result_layout.xml"
-    },
-    {
-        "merged": "ai.passio.passiosdksandbox.app-mergeDebugResources-37:/layout/activity_test.xml",
-        "source": "ai.passio.passiosdksandbox.app-main-40:/layout/activity_test.xml"
     }
 ]

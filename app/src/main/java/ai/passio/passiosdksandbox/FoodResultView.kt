@@ -1,5 +1,6 @@
 package ai.passio.passiosdksandbox
 
+import ai.passio.passiosdk.passiofood.DetectedCandidate
 import ai.passio.passiosdk.passiofood.PassioID
 import ai.passio.passiosdk.passiofood.PassioSDK
 import ai.passio.passiosdk.passiofood.data.model.PassioIDAttributes
@@ -10,6 +11,7 @@ import android.view.LayoutInflater
 import android.view.View
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
+import java.lang.Math.round
 import java.util.*
 
 class FoodResultView @JvmOverloads constructor(
@@ -29,14 +31,14 @@ class FoodResultView @JvmOverloads constructor(
         binding = null
     }
 
-    fun setFoodResult(passioID: PassioID, confidence: Float) {
+    fun setFoodResult(passioID: PassioID, bestVisualCandidate: DetectedCandidate) {
         if (passioID == currentResult) {
             return
         }
 
         val passioIDAttributes = PassioSDK.instance.lookupPassioAttributesFor(passioID) ?: return
         // call api to send detection information here
-        renderResult(passioIDAttributes, confidence)
+        renderResult(passioIDAttributes, bestVisualCandidate)
     }
 
     fun setBarcodeResult(barcode: String) {
@@ -49,27 +51,44 @@ class FoodResultView @JvmOverloads constructor(
                 return@fetchPassioIDAttributesForBarcode
             }
             // call api to send detection information here
-            renderResult(passioIDAttributes, 1.0f)
+            renderResult(passioIDAttributes, null)
         }
     }
 
-    private fun renderResult(passioIDAttributes: PassioIDAttributes, confidence: Float) {
+    private fun renderResult(passioIDAttributes: PassioIDAttributes, detectedCandidate: DetectedCandidate?) {
         currentResult = passioIDAttributes.passioID
         val name = passioIDAttributes.name
-        var nutrition = ""
-        if (passioIDAttributes.passioFoodItemData == null) {
-            nutrition = "No"
+        var nutrition: Boolean = false
+        if (passioIDAttributes.passioFoodItemData != null) {
+            nutrition = true
+        }
+
+        if (detectedCandidate != null) {
+            binding?.let {
+                it.foodResultImage.loadPassioIcon(
+                    passioIDAttributes.passioID,
+                    passioIDAttributes.entityType
+                )
+                it.foodResultName.text =
+                    name.capitalize(Locale.ROOT) + "\nConfidence: " + String.format(
+                        "%.2f",
+                        detectedCandidate.confidence
+                    ) + "\nNutrition facts:" + nutrition
+                it.foodResultProgress.alpha = 0f
+                it.foodResultImage.alpha = 1f
+            }
         } else {
-            nutrition = "Yes"
+            binding?.let {
+                it.foodResultImage.loadPassioIcon(
+                    passioIDAttributes.passioID,
+                    passioIDAttributes.entityType
+                )
+                it.foodResultName.text =
+                    name.capitalize(Locale.ROOT) + "\n Barcode"
+                it.foodResultProgress.alpha = 0f
+                it.foodResultImage.alpha = 1f
+            }
         }
-
-        binding?.let {
-            it.foodResultImage.loadPassioIcon(passioIDAttributes.passioID, passioIDAttributes.entityType)
-            it.foodResultName.text = name.capitalize(Locale.ROOT) + "\nNutrition facts:" + nutrition + "\nConfidence:" + confidence
-            it.foodResultProgress.alpha = 0f
-            it.foodResultImage.alpha = 1f
-        }
-
     }
 
     fun setSearching() {
